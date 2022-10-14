@@ -1,6 +1,6 @@
 # Flutter register_broadcast_receiver plugin
 
-
+[![pub package](https://img.shields.io/pub/v/register_broadcast_receiver.svg)](https://pub.dev/packages/register_broadcast_receiver)
 
 A Flutter plugin to register [Android broadcast receiver](https://developer.android.com/guide/components/broadcasts).
 
@@ -11,9 +11,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  broadcast_receiver:
-    git:
-      url: https://github.com/ag1le0/register_broadcast_receiver
+  register_broadcast_receiver: ^0.0.1
 ```
 
 ## Usage
