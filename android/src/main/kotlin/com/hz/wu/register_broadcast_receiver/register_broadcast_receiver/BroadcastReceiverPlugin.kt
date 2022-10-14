@@ -1,18 +1,13 @@
-package com.hz.wu.broadcast_receiver.broadcast_receiver
+package com.hz.wu.register_broadcast_receiver.register_broadcast_receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
-import android.util.Log
 import androidx.annotation.NonNull
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.EventChannel
-import io.flutter.plugin.common.MethodCall
-import io.flutter.plugin.common.MethodChannel
-import io.flutter.plugin.common.MethodChannel.MethodCallHandler
-import io.flutter.plugin.common.MethodChannel.Result
 
 /** BroadcastReceiverPlugin */
 class BroadcastReceiverPlugin: FlutterPlugin, EventChannel.StreamHandler {
@@ -22,7 +17,7 @@ class BroadcastReceiverPlugin: FlutterPlugin, EventChannel.StreamHandler {
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
     context = flutterPluginBinding.applicationContext
-    channel = EventChannel(flutterPluginBinding.binaryMessenger, "broadcast_receiver")
+    channel = EventChannel(flutterPluginBinding.binaryMessenger, "register_broadcast_receiver")
     channel.setStreamHandler(this)
   }
 

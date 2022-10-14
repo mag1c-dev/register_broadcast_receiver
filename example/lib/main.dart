@@ -1,6 +1,6 @@
-import 'package:broadcast_receiver/broadcast_receiver.dart';
-import 'package:broadcast_receiver/intent_filter.dart';
 import 'package:flutter/material.dart';
+import 'package:register_broadcast_receiver/intent_filter.dart';
+import 'package:register_broadcast_receiver/register_broadcast_receiver.dart';
 
 void main() {
   runApp(const MyApp());

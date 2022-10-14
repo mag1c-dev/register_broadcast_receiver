@@ -1,4 +1,4 @@
-# Flutter broadcast_receiver plugin
+# Flutter register_broadcast_receiver plugin
 
 
 
@@ -13,14 +13,14 @@ Add this to your package's `pubspec.yaml` file:
 dependencies:
   broadcast_receiver:
     git:
-      url: https://github.com/ag1le0/broadcast_receiver
+      url: https://github.com/ag1le0/register_broadcast_receiver
 ```
 
 ## Usage
 
 ```dart
 import 'dart:io';
-import 'package:broadcast_receiver/broadcast_receiver.dart';
+import 'package:broadcast_receiver/register_broadcast_receiver.dart';
 
 // Register broadcast.
 BroadcastReceiver.registerBroadcast(

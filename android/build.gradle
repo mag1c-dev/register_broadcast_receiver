@@ -1,4 +1,4 @@
-group 'com.hz.wu.broadcast_receiver.broadcast_receiver'
+group 'com.hz.wu.register_broadcast_receiver.register_broadcast_receiver'
 version '1.0-SNAPSHOT'
 
 buildscript {

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hz.wu.broadcast_receiver.broadcast_receiver_example">
+    package="com.hz.wu.register_broadcast_receiver.register_broadcast_receiver_example">
    <application
-        android:label="broadcast_receiver_example"
+        android:label="register_broadcast_receiver_example"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

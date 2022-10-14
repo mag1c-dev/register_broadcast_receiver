@@ -1,8 +1,8 @@
-import 'package:broadcast_receiver/intent_filter.dart';
 import 'package:flutter/services.dart';
+import 'package:register_broadcast_receiver/intent_filter.dart';
 
 class BroadcastReceiver {
-  static const _eventChannel = EventChannel('broadcast_receiver');
+  static const _eventChannel = EventChannel('register_broadcast_receiver');
 
   static Stream<DataReceiver> registerBroadcast(IntentFilter intentFilter) {
     return _eventChannel

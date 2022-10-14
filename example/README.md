@@ -1,6 +1,6 @@
-# broadcast_receiver_example
+# register_broadcast_receiver_example
 
-Demonstrates how to use the broadcast_receiver plugin.
+Demonstrates how to use the register_broadcast_receiver plugin.
 
 ## Getting Started
 
