@@ -20,7 +20,7 @@ dependencies:
 
 ```dart
 import 'dart:io';
-import 'package:broadcast_receiver/register_broadcast_receiver.dart';
+import 'package:register_broadcast_receiver/register_broadcast_receiver.dart';
 
 // Register broadcast.
 BroadcastReceiver.registerBroadcast(
